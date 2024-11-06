@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Salvarea Crocodilului Croco</title>
+    <link rel="stylesheet" href="styles.css"  media="(min-width:500px)">
+</head>
+<body>
+    <div class="tiledBackground"></div>
+    <!-- Meniu de navigare -->
+    <header>
+        <img id="logo" src="https://gitlab.com/GodGivenn/tema-individuala-front-2024/-/raw/main/assets/logo.png?ref_type=heads" alt="Logo Croco">
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="croco">Croco</a></li>
+                    <li><a href="formular">Formular</a></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li> <img id="logo2" src="https://gitlab.com/GodGivenn/tema-individuala-front-2024/-/raw/main/assets/logo.png?ref_type=heads" alt="Logo Croco"></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+    <img id="burger" src="images/meniu.png" alt="buton">
+    <button class="menu-button" onclick="myFunction()"></button>
+ 
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="croco">
+        <div class = "paralelogram">
+        </div>
+        <h1 id="save">Salvează o generație!</h1>
+        <p id="paragrafsave">Salvează o generație!
+            Au trecut aproape 28 de ani de când specia de crocodili Crocodylus porosus este
+            pusă în pericol de înspăimântătoarele limbaje de programare cu care se află într-o
+            continuă confruntare. Indiferent că este vorba de HTML, CSS sau JavaScript
+            (incluzând cele x de framework-uri care s-au lansat în cele y secunde de când ești
+            pe acest site), armata crocodililor are nevoie de noi soldați, pregătiți să lupte pe front
+            pentru a ne salva!</p>
+        
+    </section>
+    <div class = "rotund"><h2>Nu te poți înscrie? Donează!</h2></div>
+    <!-- Secțiune Home -->
+    <section id="home">
+        <h2>Despre Croco</h2>
+        <p>WE ARE CROCO!
+            Războiul este unul crâncen. Fatalitățile de pe front sunt echivalentul a 1200 burgeri
+            și 4 perechi de Jordani făcuți din carne de crocodil! 😔
+            Măcelul s-ar putea sfârși... dacă ni te-ai alătura!</p>
+    </section>
+
+        <!-- Logo-ul -->
+    </header>
+    
+        
+
+    <iframe id="vid" width="420" height="315" src="https://www.youtube.com/embed/3DoAigtIkGI?si=gn5qXcLdleVrNkat" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<section id="curaj">
+    <h2>NU VREI PE FRONT?</h2>
+<p>
+    Poate că munca din fața ecranelor nu ți se potrivește, ci ai prefera să lucrezi în
+    spatele cortinelor.
+    Dacă situația de mai sus este cea în care te regăsești, fii fără frică! Armata
+    crocodililor are un loc pentru toți.
+    Convins? Înscrie-te!
+    Sincer am rămas total fără idei pentru acest paragraf, așa că, fun fact: unele specii
+    de crocodili sunt capabile de auto reproducere[sursă]!</p>
+
+</section>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <!-- Secțiune Formular -->
+    <section id="formular">
+        <h2>Aplica pentru a ajuta Croco</h2>
+        <form id="form" action="#" method="post" onsubmit="return validateForm()">
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" required><br>
+
+            <label for="prenume">Prenume:</label>
+            <input type="text" id="prenume" name="prenume" required><br>
+
+            <label for="telefon">Număr de telefon:</label>
+            <input type="tel" id="telefon" name="telefon" required><br>
+
+            <label for="data_nasterii">Data nașterii:</label>
+            <input type="date" id="data_nasterii" name="data_nasterii" required><br>
+
+            <label for="email">Adresă de email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="motiv">Motivul aplicării:</label><br>
+            <textarea id="motiv" name="motiv" rows="4" required></textarea><br>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Salvarea Crocodilului Croco. Toate drepturile rezervate.</p>
+    </footer>
+
+    
+</body>
+</html>
