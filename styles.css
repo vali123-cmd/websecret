@@ -5,10 +5,13 @@
 }
 
 body {
+    overflow-x:hidden;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
     color: #333;
+    height:100%;
+    width:100%;
 }
 
 
@@ -96,11 +99,15 @@ margin: 20px;
 border-radius: 8px;
 
 }
-
+#formular {
+    position: relative;
+    z-index:20;
+}
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+   
 }
 
 form label {
@@ -132,8 +139,6 @@ form button {
     background-size: cover;
     width: 1515px;
     height: 1200px;
-    border: 2px solid;
-    color: pink;
   }
 
 form button:hover {
@@ -244,7 +249,9 @@ nav ul li a {
     position:absolute;
     z-index:10;
     margin-left:10%;
-    margin-top:10%;
+    margin-top:18.5%;
+    border:green solid 15px;
+    border-style:dashed;
 }
 .rotund h2 {
     font-size:20px;
@@ -362,4 +369,31 @@ footer {
     height:90px;
     margin-left:-15%;
     z-index:20;
+}
+#titledBackground2 {
+
+    position: absolute;
+    margin-top:60%;
+    width:1515;
+    height:1200;
+    
+    
+}
+.paralelogram1{
+    position:absolute;
+    transform:skew(20deg);
+    background-color:yellow;
+    z-index:11;
+    width:500px;
+    height:100px;
+    margin-top:12%;
+    margin-left:8%;
+}
+#weare {
+    position:absolute;
+    margin-top:13%;
+    margin-left:13%;
+    z-index:12;
+    color:red;
+    font-size:40px;
 }
